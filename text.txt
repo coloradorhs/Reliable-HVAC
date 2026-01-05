@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Reliable HVAC Services LLC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f7fa;
+      color: #333;
+    }
+
+    header {
+      background: #1f3c88;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background: #1f3c88;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .cta {
+      background: #ffd700;
+      color: #000;
+      padding: 15px 25px;
+      display: inline-block;
+      margin-top: 20px;
+      border-radius: 5px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Reliable HVAC Services LLC</h1>
+  <p>Heating • Ventilation • Air Conditioning</p>
+  <a href="#contact" class="cta">Request Service</a>
+</header>
+
+<section>
+  <h2>About Us</h2>
+  <p>
+    Reliable HVAC Services LLC provides professional heating and cooling solutions
+    you can trust. We are committed to quality workmanship, honest pricing,
+    and dependable service for homes and businesses.
+  </p>
+</section>
+
+<section>
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Heating Repair & Installation</h3>
+      <p>Furnaces, heat pumps, and full system replacements.</p>
+    </div>
+    <div class="card">
+      <h3>Air Conditioning</h3>
+      <p>AC repair, maintenance, and energy-efficient installations.</p>
+    </div>
+    <div class="card">
+      <h3>Maintenance Plans</h3>
+      <p>Seasonal tune-ups to keep your system running smoothly.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p><strong>Phone:</strong> <a href="tel:17206020058">(720) 602-0058</a></p>
+  <p><strong>Email:</strong> <a href="mailto:coloradorhs@gmail.com">coloradorhs@gmail.com</a></p>
+  <p><strong>Service Area:</strong> Colorado & Surrounding Areas</p>
+</section>
+
+<footer>
+  <p>© 2026 Reliable HVAC Services LLC. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
